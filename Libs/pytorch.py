@@ -44,3 +44,8 @@ net=torch.load('pkl')
 #保存参数
 torch.save(net.state_dict(),'net.pkl')
 net.load_state_dict(torch.load('pkl'))
+
+
+
+
+torch.nn.Conv2d(in_channels,out_channels,kernel_size,stride,padding)
